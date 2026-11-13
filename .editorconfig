@@ -1,0 +1,21 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{ps1,psm1,psd1}]
+# Windows PowerShell 5.1 reads BOM-less files as ANSI: keep scripts ASCII-only (a test checks it).
+end_of_line = crlf
+
+[*.{md,json,yml}]
+end_of_line = lf
+
+[*.yml]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false

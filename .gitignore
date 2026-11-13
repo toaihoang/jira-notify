@@ -1,0 +1,21 @@
+# Personal data never belongs in the repo. The tool keeps it in %LOCALAPPDATA%\JiraNotify,
+# but guard against copies dropped next to the scripts.
+config.json
+ignored.txt
+credential.xml
+seen*.json
+last-*.json
+last-*.txt
+*.log
+*.log.old
+
+# Test output
+testResults.xml
+coverage.xml
+
+# Editors / OS
+.vs/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

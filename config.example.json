@@ -1,0 +1,11 @@
+{
+    "JiraBaseUrl": "https://your-company.atlassian.net",
+    "TodoStatuses": ["Open", "Reopened"],
+    "StagingStatus": "Ready for Staging",
+    "SinceDate": "2026-01-15",
+    "IntervalMinutes": 5,
+    "FailuresBeforeToast": 3,
+    "MorningReminder": "08:30",
+    "MorningReminderWeekdaysOnly": true,
+    "SkipWhenLocked": true
+}
